@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+.header{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 30vh;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../../image/hdr.jpg');
+    opacity: .9;
+
+    
+}
+h1{
+    font-family: 'Lato';
+    font-size: 60px;
+    font-weight: 800;
+   color: #050709;
+    
+}
