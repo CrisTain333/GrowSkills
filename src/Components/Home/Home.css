@@ -1,25 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-.header{
-    background: rgba( 255, 255, 255, 0.35 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 20px );
-    -webkit-backdrop-filter: blur( 20px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    height: 30vh;
-    margin: 0px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   background-image: url('../../image/hdr.jpg');
-    opacity: .9;
-
+.page-holder {
+    min-height: 80vh;
+  }
+  
+  .bg-cover {
+    background-size: cover !important;
+  }
+  .QuizContainer{
+    width: 50%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  
+  @media screen and (max-width:668px) {
+    .QuizContainer{
+        width: 79%;
+        grid-template-columns: repeat(1,1fr);
+    }
     
-}
-h1{
-    font-family: 'Lato';
-    font-size: 60px;
-    font-weight: 800;
-   color: #050709;
-    
-}
+  }

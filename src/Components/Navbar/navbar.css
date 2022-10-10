@@ -36,3 +36,30 @@ a:hover{
     color: #FFFFFF;
     font-family: 'Lato';
 }
+
+@media screen and (max-width:668px)  {
+    nav>.mainDiv{
+        width: 100%;
+        display: block;
+        align-items: center;
+       text-align: center;
+    }
+    
+    .mainDiv>.linkDivs{
+        margin-top: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    a{
+        margin: 0;
+    }
+    .mainDiv>.okkks>p{
+        /* margin-top: 5px;
+        font-size: 28px;
+        color: #FFFFFF;
+        font-family: 'Lato'; */
+        display: none;
+    }
+    
+}

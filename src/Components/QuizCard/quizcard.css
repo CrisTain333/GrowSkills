@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.cardDiv{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(223, 223, 223);
+    font-family: 'lato';
+
+}
+.imagediv {
+    width: 75%;
+    margin: 0px auto;
+}
+.cardImg{
+    height: 200px;
+    padding: 10px;
+}
+.TextDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0px auto;
+}
+p{
+    font-size: 20px;
+    margin: 0;
+}
+.btnDiv{
+    width: 41%;
+    margin: 0px auto;
+    margin-top: 10px;
+}
