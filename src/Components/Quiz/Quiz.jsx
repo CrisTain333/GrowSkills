@@ -7,16 +7,16 @@ import Footer from "../footer/Footer";
 const Quiz = () => {
   const datas = useLoaderData();
   const data = datas.data.questions;
+  console.log(data.length)
   const quizName = datas.data.name;
-  const id = datas.data.id;
+  let id = 0;
 
   return (
     <>
       <div className="mainQuizDiv">
         <h3 className="text-center mt-5">Quiz Of {quizName}</h3>
         {data.map((e) => {
-          console.log(e);
-          return <QuizQus key={id} data={e} />;
+          return <QuizQus key={id=id+1} data={e} />;
         })}
       </div>
       <Footer />

@@ -10,6 +10,7 @@
     margin: 0px auto;
     border-radius: 10px;
     margin-bottom:15px ;
+    position: relative;
 }
 .mainDiv>p{
     margin-top: 10px;
@@ -28,6 +29,12 @@
     margin: 10px 10px;
     display: flex;
     align-items: center;
+}
+.fa-eye{
+    position: absolute;
+    left: 95%;
+    padding: 5px;
+    color: #ff006e;
 }
 
 @media screen and (max-width:668px){

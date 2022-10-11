@@ -6,6 +6,7 @@ import Home from "./Components/Home/Home.jsx";
 import Rechart from "./Components/rechart/Rechart.jsx";
 import Quiz from "./Components/Quiz/Quiz.jsx";
 import Blog from "./Components/Blog/Blog.jsx";
+
 function App() {
   const router = createBrowserRouter([
     {
