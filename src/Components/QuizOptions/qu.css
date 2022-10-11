@@ -55,4 +55,8 @@
         display: flex;
         align-items: center;
     }
+    .fa-eye{
+        left: 45%;
+        padding: 1px;
+    }
 }

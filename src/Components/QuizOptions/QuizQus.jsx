@@ -17,13 +17,13 @@ const QuizQus = (props) => {
   };
 
   const showAnswer = (id,data) => {
-    if(id=== data.id){
+  
       const ans = data.correctAnswer
       const tost = ()=>{
-        toast.success(`Correct Answer Is  ${ans} `   );
+        toast.success(`Correct Answer Is : ${ans} `   );
       }
       tost()
-    }
+   
 
   };
 
