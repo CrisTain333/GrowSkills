@@ -6,6 +6,7 @@ import Footer from "../footer/Footer";
 
 const Quiz = () => {
   const datas = useLoaderData();
+  console.log(datas)
   const data = datas.data.questions;
   console.log(data.length)
   const quizName = datas.data.name;

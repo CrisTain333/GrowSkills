@@ -1,0 +1,15 @@
+/* .charDiv{
+    
+    margin: 20px auto;
+    margin-left: 38%;
+}
+
+@media screen and (max-width:668px)  {
+    .charDiv{
+        width: 50%;
+    margin: 20px auto;
+    }
+} */
+.mainDivPf{
+    display: flex;
+}
