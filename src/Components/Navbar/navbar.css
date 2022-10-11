@@ -33,7 +33,6 @@ a:hover{
 }
 .mainDiv>.okkks>p{
     font-size: 28px;
-    color: #FFFFFF;
     font-family: 'Lato';
 }
 
@@ -55,10 +54,6 @@ a:hover{
         margin: 0;
     }
     .mainDiv>.okkks>p{
-        /* margin-top: 5px;
-        font-size: 28px;
-        color: #FFFFFF;
-        font-family: 'Lato'; */
         display: none;
     }
     

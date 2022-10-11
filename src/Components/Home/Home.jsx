@@ -2,6 +2,7 @@ import React from "react";
 import { useLoaderData } from "react-router-dom";
 import "./Home.css";
 import QuizCard from "../QuizCard/QuizCard";
+import Footer from '../footer/Footer'
 const Home = () => {
   const data = useLoaderData()
   // console.log(data)
@@ -27,7 +28,7 @@ const Home = () => {
 
 </div>
 
-
+<Footer/>
     </>
     
   );

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
-
+import Footer from '../footer/Footer' 
 
 const Rechart = () => {
   const [data,setData]=useState([])
@@ -31,6 +31,11 @@ const Rechart = () => {
     <div>
     <h1 className='text-center'>Chart Of Quiz Data</h1>
     
+
+
+
+
+    <Footer/>
     </div>
   )
 }

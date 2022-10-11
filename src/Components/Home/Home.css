@@ -7,10 +7,10 @@
     background-size: cover !important;
   }
   .QuizContainer{
-    width: 50%;
+    width: 90%;
     margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
     column-gap: 20px;
     row-gap: 20px;
   }

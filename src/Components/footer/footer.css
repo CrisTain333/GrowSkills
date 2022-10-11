@@ -1,0 +1,17 @@
+.footer-image{
+    height: 10vh;
+}
+.fa-facebook{
+    color: rgb(38, 38, 183);
+}
+.fa-twitter{
+    color: #48cae4;
+}
+.fa-instagram{
+    color: #ff006e ;
+}
+
+.ftr{
+width: 80%;
+margin: 0px auto;
+}

@@ -15,6 +15,7 @@
     margin-top: 10px;
     padding-top: 15px;
     font-weight: 600;
+    color: #ff006e;
 }
 .quizOptionDiv{
     display: grid;
@@ -25,4 +26,26 @@
     border: 1px solid #ff006e;
     border-radius:10px ;
     margin: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:668px){
+    .quiDivs>.mainDiv{
+        width: 100%;
+        margin: 0px;
+    }
+    .quiDivs {
+        width: 100%
+    }
+    .mainDiv>p{
+        font-size: 15px;
+    }
+    .quizOptionDiv {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .quizOptionDiv>.qus{
+        display: flex;
+        align-items: center;
+    }
 }

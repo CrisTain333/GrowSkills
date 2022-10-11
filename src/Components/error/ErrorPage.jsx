@@ -4,20 +4,29 @@ import { Link } from "react-router-dom";
 const ErrorPage = () => {
   return (
     <>
-      <div id="oopss">
-        <div id="error-text">
-          <img
-            src="https://cdn.rawgit.com/ahmedhosna95/upload/1731955f/sad404.svg"
-            alt="404"
-          />
-          <span>404 PAGE</span>
-          <p className="p-a">. The page you were looking for could not be found</p>
-          <p className="p-b">... Back to previous page</p>
-          <Link to="/" className="back">
-            ... Back to previous page
-          </Link>
+      <section className="page_404">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 ">
+              <div className="col-sm-12 col-sm-offset-1  text-center">
+                <div className="four_zero_four_bg">
+                  <h1 className="text-center ">404</h1>
+                </div>
+
+                <div className="contant_box_404">
+                  <h3 className="h2">Look like you're lost</h3>
+
+                  <p>the page you are looking for not avaible!</p>
+
+                  <Link to="/" className="link_404">
+                    Go to Home
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

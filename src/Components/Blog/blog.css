@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+.blogDiv{
+    width: 80%;
+    margin: 0px auto;
+    text-align: justify;
+}
+.blogDiv>h2{
+    font-family: 'lato';
+    margin-top: 20px;
+    
+}
