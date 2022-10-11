@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.mainQuizDiv{
+    width: 80%;
+    margin: 0px auto;
+}
+.mainQuizDiv>h3{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}

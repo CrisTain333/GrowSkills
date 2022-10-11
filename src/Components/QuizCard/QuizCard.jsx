@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './quizcard.css'
 
+
 const QuizCard = (props) => {
-    const{logo,name,total}=props.data
+    const{logo,name,total,id}=props.data
   return (
     <div className='cardDiv'>
     <div className='imagediv'>
@@ -18,7 +20,9 @@ const QuizCard = (props) => {
     </div>
     <div className='btnDiv'>
 
-        <button className='btn btn-danger '>Start Quiz <i class="fa-solid fa-arrow-right"></i></button>
+  <Link to={`/quiz/${id}`}>
+  <button className='btn btn-danger '>Start Quiz <i className="fa-solid fa-arrow-right"></i></button>
+  </Link>
     </div>
 
     </div>

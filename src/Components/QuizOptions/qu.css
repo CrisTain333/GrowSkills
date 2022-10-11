@@ -1,0 +1,28 @@
+.quiDivs{
+    padding: 5px;
+    width: 95%;
+    margin: 0px auto;
+}
+.quiDivs>.mainDiv{
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-bottom:15px ;
+}
+.mainDiv>p{
+    margin-top: 10px;
+    padding-top: 15px;
+    font-weight: 600;
+}
+.quizOptionDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.quizOptionDiv>.qus{
+    padding: 10px;
+    border: 1px solid #ff006e;
+    border-radius:10px ;
+    margin: 10px 10px;
+}
