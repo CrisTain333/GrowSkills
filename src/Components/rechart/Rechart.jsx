@@ -30,7 +30,6 @@ const Rechart = () => {
         };
         return singleQuize;
       });
-      console.log(quizData);
       setData(quizData);
     });
   }, []);

@@ -2,26 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `Live Link`
+## `Live Link`
+
+https://grow-skills.netlify.app/
 
 
+## `Project Name : GrowSkils`
 
-
-## `Project Name GrowSkils`
-
-This Is a Project Of Quiz App And All Questions Are Web Related
+This Is a Project Of Quiz App And All Questions Are Web Related.
 
 ## `Tools Used In This Application`
 
-⚫️ Rechart For Statistics Page
+⚫️ Rechart Used To Create A Chart Of All Quiz Data.
 
-⚫️ Used Axios For Lodaing Data
+⚫️ Used Axios For Lodaing Data.
 
-⚫️ Used React Router V6
+⚫️ Used React Router V6.
 
-⚫️ Used Bootstrap 
+⚫️ Used Bootstrap  .
 
-⚫️ also Responsive
+⚫️ Used Font Awesome Icons.
 
 
 
