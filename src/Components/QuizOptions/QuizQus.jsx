@@ -3,10 +3,7 @@ import "./qu.css";
 import toast, { Toaster } from "react-hot-toast";
 
 const QuizQus = (props) => {
-  const [ans, setAns] = useState("");
   const { question, options } = props.data;
-  // console.log(props.data)
-
 
   
   const notify = () => {
@@ -28,7 +25,6 @@ const QuizQus = (props) => {
   };
 
   const handleanswer = (e) => {
-    setAns(e.target.value);
     if (props.data.correctAnswer === e.target.value) {
       notify();
     } else {

@@ -5,7 +5,6 @@ import QuizCard from "../QuizCard/QuizCard";
 import Footer from '../footer/Footer'
 const Home = () => {
   const data = useLoaderData()
-  // console.log(data)
   return (
     <>
     <div style={{background: "url(https://bootstrapious.com/i/snippets/sn-bg-image/bg.jpg)"}} className="page-holder bg-cover">
